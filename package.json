@@ -30,8 +30,8 @@
   ],
   "license": "0BSD",
   "repository": {
-    "type": "git"  }
-    ,
+    "type": "git"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
