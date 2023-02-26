@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-blog-jdg",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Notes About Web Dev Taken From Various Sites",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "SO-JIMM",
   "dependencies": {
     "@fontsource/merriweather": "^4.5.14",
     "@fontsource/montserrat": "^4.5.14",
@@ -28,15 +25,13 @@
   "devDependencies": {
     "prettier": "^2.8.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
+    "type": "git"  }
+    ,
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
