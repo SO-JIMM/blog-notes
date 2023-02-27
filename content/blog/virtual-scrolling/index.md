@@ -6,8 +6,6 @@ tag: css, fetch
 author: SO-JIMM
 ---
 
-import Image from "next/image"
-
 ## Infinite Scrolling
 
 Loads a list of elements lazily. Meaning, that it only loads the elements to fill the client window and loads more as necessary. For example, think about the news feed on Facebook or Instagram. Instead of loading all of the posts at once, the application waits until you reach the bottom of the page to load more content.
@@ -28,7 +26,7 @@ You can also imagine this as if walking on a bridge that's currently being built
 
 `amount` and `tolerance` require special attention. amount defines the number of items we want to be visible in the viewport. `tolerance` determines the viewport’s outlets, which contains additional items that will be rendered but invisible to the user. The diagram below represents the selected values of the SETTINGS object and the animated gif demonstrates how the initial state can change while scrolling.
 
-![Gif](./vscroll.gif)
+![GIF Example](./vscroll-final.gif)
 
 ### References, Resources, Sources
 

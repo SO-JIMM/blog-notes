@@ -27,16 +27,16 @@ const Bio = () => {
   const author = data.site.siteMetadata?.author
 
   return (
-    <div className="bio">
+    <div className='bio'>
       <StaticImage
-        className="bio-avatar"
-        layout="fixed"
+        className='bio-avatar'
+        layout='fixed'
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src='../images/profile-pic.png'
         width={50}
         height={50}
         quality={95}
-        alt="Profile picture"
+        alt='Profile picture'
       />
       {author?.name && (
         <p>
